@@ -30,10 +30,10 @@ Now to launch the application just run
 ```bash
 python main.py
 ```
-! There is a chance that the model's weights haven't been downloaded properly. The size of the fine_tuned_model.data-00000-of-00001 file should be around 487MB. If it is smaller, then download the file [here](https://github.com/VolodymyrRushchak/AIPaperPiano/raw/main/piano_interface/assets/ai_model/fine_tuned_model.data-00000-of-00001?download=) and manually put it in the piano_interface\assets\ai_model folder.
+**! IMPORTANT !** There is a chance that the model's weights haven't been downloaded properly. The size of the fine_tuned_model.data-00000-of-00001 file should be around 487MB. If it is smaller, then download the file [here](https://github.com/VolodymyrRushchak/AIPaperPiano/raw/main/piano_interface/assets/ai_model/fine_tuned_model.data-00000-of-00001?download=) and manually put it in the piano_interface\assets\ai_model folder.
 
 ## How to Use the Project
-First, print the two halves of the piano templates. Then fix them on your table in the right order (e.g. using scotch tape). Then put your laptop behind the improvised piano and point your web camera on it, so that the whole piano can be seen on the screen. <br />
+First, print the two halves of the piano templates. Then fix them on your table in the right order. Then put your laptop behind the improvised piano and point your web camera on it, so that the whole piano can be seen on the screen. <br />
 After that, using your mouse, click around the piano to form a green rectangle. It is important to start from the edges of the black keys like this:
 
 <img src="https://github.com/VolodymyrRushchak/AIPaperPiano/assets/93164951/f9b75bbf-5fe7-4aee-bf5a-0ec835831d50" alt="Example Image" width="650" height="165">

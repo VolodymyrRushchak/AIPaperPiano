@@ -3,7 +3,7 @@
 https://github.com/VolodymyrRushchak/AIPaperPiano/assets/93164951/c03d4b7f-098c-4b01-8306-e1daf764304f
 
 ## Description
-AIPaperPiano allows you to play on a virtual piano. All you need is a laptop with a web camera and two A4 sheets (and a table of course:). <br />
+AIPaperPiano allows you to play on a virtual piano with 51 keys: 30 white and 21 black. All you need is a laptop with a web camera and two A4 sheets (and a table of course:). <br />
 Here I used the Python programming language, Tensorflow, NumPy and Seaborn libraries, and the PyQt5 graphics library. <br />
 During the development of the project I learned and practiced such concepts as transfer learning, fine tuning, data augmentation, hyperparameters tuning, active learning, learning rate scheduler, etc. I also had experience with Google Colab (used it for training the final model).
 

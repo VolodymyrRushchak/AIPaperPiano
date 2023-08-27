@@ -29,4 +29,9 @@ pip install tensorflow-directml-plugin
 Now to launch the application just type main.py and hit Enter.
 
 ## How to Use the Project
+First, print the two halves of the piano templates. Then fix them on your table in the right order (e.g. using scotch tape). Then put your laptop behind the improvised piano and point your web camera on it, so that the whole piano can be seen on the screen. <br />
+After that, using your mouse, click around the piano to form a green rectangle. It is important to start from the edges of the black keys like this:
 
+<img src="https://github.com/VolodymyrRushchak/AIPaperPiano/assets/93164951/f9b75bbf-5fe7-4aee-bf5a-0ec835831d50" alt="Example Image" width="650" height="165">
+
+After you do that, enjoy playing!

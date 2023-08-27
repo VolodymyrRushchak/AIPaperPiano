@@ -16,17 +16,21 @@ As you can see the project is divided into five directories:
 5. data_manipulator: I used the code here to get some statistical information about the dataset with images for the model training and validation.
 
 ## How to Install and Run the Project
-I you are an ordinary user, first download the piano_interface directory. If you have Python installed (version 3.9 or higher) then open a command line and navigate to the downloaded directory. After that run the following commands one by one:
+First, download the piano_interface directory. If you have Anaconda installed then open the command line and navigate to the downloaded directory. After that run the following commands one by one:
 ```bash
-python -m venv venv
-venv\Scripts\activate.bat
+conda create --name ai_paper_piano python=3.9 
+conda activate ai_paper_piano 
 pip install -r requirements.txt
 ```
 If your graphics card supports DirectX 12 it is highly recommended to install tensorflow-directml-plugin in order to have good performance. To do so just run
 ```bash
 pip install tensorflow-directml-plugin
 ```
-Now to launch the application just type main.py and hit Enter.
+Now to launch the application just run
+```bash
+python main.py
+```
+! There is a chance that the model's weights haven't been downloaded properly. The size of the fine_tuned_model.data-00000-of-00001 file should be around 487MB. If it is smaller, then download the file [here](https://github.com/VolodymyrRushchak/AIPaperPiano/raw/main/piano_interface/assets/ai_model/fine_tuned_model.data-00000-of-00001?download=) and manually put it in the piano_interface\assets\ai_model folder.
 
 ## How to Use the Project
 First, print the two halves of the piano templates. Then fix them on your table in the right order (e.g. using scotch tape). Then put your laptop behind the improvised piano and point your web camera on it, so that the whole piano can be seen on the screen. <br />
